@@ -69,6 +69,7 @@ DATABASES = {
     "couchbase"    : "site.ycsb.db.CouchbaseClient",
     "couchbase2"   : "site.ycsb.db.couchbase2.Couchbase2Client",
     "crail"        : "site.ycsb.db.crail.CrailClient",
+    "dummy"        : "site.ycsb.db.DummyClient",
     "dynamodb"     : "site.ycsb.db.DynamoDBClient",
     "elasticsearch": "site.ycsb.db.ElasticsearchClient",
     "elasticsearch5": "site.ycsb.db.elasticsearch5.ElasticsearchClient",
